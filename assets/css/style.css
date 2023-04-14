@@ -146,6 +146,10 @@ a {
 
 .btn--login {
     background-color: transparent;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #c9d2da;
 }
 
 .hero {
@@ -362,4 +366,184 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 86px;
+}
+
+/* Feature */
+.features {
+    padding-top: 170px;
+    height: 100vh;
+}
+
+.features__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__media {
+    position: relative;
+}
+
+.feature__img--1 {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.feature__img--2 {
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+    top: 121px;
+    left: 238px;
+}
+
+.features__body {
+    width: 470px;
+    height: 120px;
+}
+
+.features__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
+
+.features__desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
+/* Dentist */
+
+.dentist__item--list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.dentist__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #10375c;
+    margin-bottom: 38px;
+}
+
+.dentist__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dentist__img {
+    width: 270px;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.dentist--name {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #10375c;
+}
+
+.dentist--school {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #575f66;
+}
+
+.dentist__control {
+    display: flex;
+    justify-content: center;
+}
+
+.control__btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    background-color: transparent;
+    margin-right: 18px;
+    margin-top: 38px;
+}
+
+.control__btn:hover {
+    border-color: #2e80ce;
+    background-color: #2e80ce;
+    transition: 0.3s;
+}
+
+.control__btn:hover .dentist__icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%)
+        hue-rotate(47deg) brightness(107%) contrast(101%);
+}
+
+.dentist__icon {
+    filter: invert(38%) sepia(6%) saturate(670%) hue-rotate(166deg)
+        brightness(93%) contrast(90%);
+}
+
+/* Install */
+.install {
+    height: 427px;
+    background-color: #2e80ce;
+    position: relative;
+    margin-top: 265px;
+    display: flex;
+    align-items: center;
+}
+
+.container__install {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone__img {
+    position: absolute;
+    bottom: 0;
+}
+
+.install__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: 489px;
+    margin-bottom: 18px;
+}
+
+.install__desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+    width: 586px;
+    margin-bottom: 38px;
+}
+
+.install__btn-img img {
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.install__btn-img:hover img {
+    transform: scale(1.05);
 }
