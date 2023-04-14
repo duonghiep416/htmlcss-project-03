@@ -119,20 +119,30 @@
                     <nav>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link nav__link--active"
+                                <a
+                                    href="#"
+                                    class="nav__link home__link nav__link--active"
                                     >Home</a
                                 >
                             </li>
                             <li class="nav__item">
-                                <a href="#services__title" class="nav__link"
+                                <a
+                                    href="#services"
+                                    class="nav__link services__link"
                                     >Services</a
                                 >
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">About</a>
+                                <a href="#guilds" class="nav__link about__link"
+                                    >About</a
+                                >
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">Doctors</a>
+                                <a
+                                    href="#dentist"
+                                    class="nav__link doctor__link"
+                                    >Doctors</a
+                                >
                             </li>
                         </ul>
                     </nav>
@@ -175,7 +185,7 @@
             </div>
         </header>
         <main>
-            <section class="services">
+            <section class="services" id="services">
                 <div class="container">
                     <h2 class="services__title">Our services</h2>
                     <p class="services__desc">
@@ -255,7 +265,7 @@
                     </div>
                 </div>
             </section>
-            <section class="guilds">
+            <section class="guilds" id="guilds">
                 <div class="container">
                     <h2 class="guilds__title">How it works</h2>
                     <p class="guilds_desc">
@@ -305,7 +315,7 @@
                     </div>
                 </div>
             </section>
-            <section class="features">
+            <section class="features" id="features">
                 <div class="container">
                     <div class="features__row">
                         <div class="features__media">
@@ -336,7 +346,7 @@
                     </div>
                 </div>
             </section>
-            <section class="dentist">
+            <section class="dentist" id="dentist">
                 <div class="container">
                     <div class="dentist__header">
                         <h2 class="dentist__title">Our virtual dentist</h2>
@@ -651,5 +661,6 @@
                 2021 GDN. Copyright and All rights reserved.
             </p>
         </footer>
+        <script src="./index.js"></script>
     </body>
 </html>

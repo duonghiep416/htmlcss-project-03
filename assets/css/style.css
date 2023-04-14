@@ -9,6 +9,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -101,6 +102,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--header-bg);
+    padding: 10px 0;
+    z-index: 99;
+    margin: 0 auto;
+    padding: 10px calc((100vw - 1170px) / 2);
 }
 
 .nav__list {
